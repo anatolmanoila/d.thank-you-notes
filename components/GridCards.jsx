@@ -19,7 +19,7 @@ export default function GridCards() {
       >
         {signedByLucian.map((person) => (
           <div className="card break-inside " key={person.id}>
-            <li className="card-body col-span-1 flex flex-col rounded-lg bg-white shadow-xl shadow-xl">
+            <li className="card-body col-span-1 flex flex-col rounded-lg bg-green-100/20 shadow-xl">
               {/* card front */}
               <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white/30 p-4 shadow-lg">
                 <img
@@ -32,7 +32,7 @@ export default function GridCards() {
                 </h3>
               </div>
               {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-gray-100 to-white p-8">
+              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-green-100/20 to-white p-8">
                 <blockquote>
                   <div>
                     <svg
@@ -132,9 +132,9 @@ export default function GridCards() {
       >
         {signedByBianca.map((person) => (
           <div className="card break-inside " key={person.id}>
-            <li className="card-body col-span-1 flex flex-col rounded-lg bg-white shadow-xl shadow-xl">
+            <li className="card-body bg-fuchsia/20 col-span-1 flex flex-col rounded-lg bg-gradient-to-b from-fuchsia-100/30 to-white shadow-xl">
               {/* card front */}
-              <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white/30 p-4 shadow-lg">
+              <div className="card-front bg-fuchsia/30 flex h-full flex-1 flex-col items-center justify-center p-4 shadow-lg">
                 <img
                   className="mx-auto h-48 w-48 flex-shrink-0 rounded-full object-cover object-center shadow-xl"
                   src={person.imageUrl}
@@ -145,7 +145,7 @@ export default function GridCards() {
                 </h3>
               </div>
               {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-gray-100 to-white p-8">
+              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-fuchsia-100/20 to-white p-8">
                 <blockquote>
                   <div>
                     <svg
@@ -188,7 +188,7 @@ export default function GridCards() {
       >
         {signedBySilvana.map((person) => (
           <div className="card break-inside " key={person.id}>
-            <li className="card-body col-span-1 flex flex-col rounded-lg bg-white shadow-xl shadow-xl">
+            <li className="card-body col-span-1 flex flex-col rounded-lg bg-gradient-to-b from-emerald-100/20 to-white shadow-xl shadow-xl">
               {/* card front */}
               <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white/30 p-4 shadow-lg">
                 <img
@@ -201,7 +201,7 @@ export default function GridCards() {
                 </h3>
               </div>
               {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-gray-100 to-white p-8">
+              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-emerald-100 to-white p-8">
                 <blockquote>
                   <div>
                     <svg

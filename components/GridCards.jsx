@@ -15,7 +15,7 @@ export default function GridCards() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="flex w-full justify-center gap-8 rounded-xl pb-32"
+        className="flex w-full flex-wrap justify-center gap-8 rounded-xl pb-32"
       >
         {signedByLucian.map((person) => (
           <div className="card break-inside " key={person.id}>
@@ -72,7 +72,7 @@ export default function GridCards() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="flex w-full justify-center gap-8 rounded-xl bg-gradient-to-r from-indigo-500/20 to-indigo-100/20 py-24"
+        className="flex w-full flex-wrap justify-center gap-8 rounded-xl bg-gradient-to-r from-indigo-500/20 to-indigo-100/20 py-24"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
@@ -132,7 +132,7 @@ export default function GridCards() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="flex w-full justify-center gap-8 py-24"
+        className="flex w-full flex-wrap justify-center gap-8 py-24"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
@@ -192,7 +192,7 @@ export default function GridCards() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="flex w-full justify-center gap-8 rounded-xl bg-gradient-to-r from-teal-100/20 to-teal-500 py-16"
+        className="flex w-full flex-wrap justify-center gap-8 rounded-xl bg-gradient-to-r from-teal-100/20 to-teal-500 py-16"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"

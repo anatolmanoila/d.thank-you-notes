@@ -51,7 +51,7 @@ export default function Home() {
 
           {/* 2023 img */}
           <div className="z-0  w-full bg-dd bg-cover bg-center bg-no-repeat">
-            <div className="backdrop-blur-lg">
+            <div className="w-full backdrop-blur-lg">
               <div
                 className="z-9 mx-auto mb-12 max-w-7xl bg-transparent px-4 pt-4  sm:px-6"
                 data-aos="zoom-in-up"

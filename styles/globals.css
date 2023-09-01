@@ -161,12 +161,12 @@
   user-select: none;
   cursor: default;
   -webkit-animation-name: snowflakes-fall, snowflakes-shake;
-  -webkit-animation-duration: 10s, 3s;
+  -webkit-animation-duration: 10s, 7s;
   -webkit-animation-timing-function: linear, ease-in-out;
   -webkit-animation-iteration-count: infinite, infinite;
   -webkit-animation-play-state: running, running;
   animation-name: snowflakes-fall, snowflakes-shake;
-  animation-duration: 10s, 3s;
+  animation-duration: 10s, 7s;
   animation-timing-function: linear, ease-in-out;
   animation-iteration-count: infinite, infinite;
   animation-play-state: running, running;
@@ -178,8 +178,8 @@
 }
 .snowflake:nth-of-type(1) {
   left: 10%;
-  -webkit-animation-delay: 1s, 1s;
-  animation-delay: 1s, 1s;
+  -webkit-animation-delay: 3s, 3s;
+  animation-delay: 3s, 3s;
 }
 .snowflake:nth-of-type(2) {
   left: 20%;
@@ -188,8 +188,8 @@
 }
 .snowflake:nth-of-type(3) {
   left: 30%;
-  -webkit-animation-delay: 4s, 2s;
-  animation-delay: 4s, 2s;
+  -webkit-animation-delay: 7s, 4s;
+  animation-delay: 7s, 4s;
 }
 .snowflake:nth-of-type(4) {
   left: 40%;

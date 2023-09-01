@@ -30,7 +30,7 @@ export default function Home() {
       <header>
         <Popover className="relative mb-8 bg-white shadow-md">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 md:justify-start md:space-x-10 lg:px-8 ">
-            <div className="flex justify-start">
+            <div className=" flex justify-start">
               <a href="/">
                 <span className="sr-only">DDigital</span>
                 <img
@@ -49,7 +49,7 @@ export default function Home() {
                 data-aos-mirror="true"
                 className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
               >
-                <AudioButton url="/audio/christmas_instrumental.mp3" />
+                <AudioButton url="/audio/ballpoint_back2life.mp3" />
               </div>
 
               {/* <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="z-0  w-full bg-dd bg-cover bg-center bg-no-repeat">
             <div className="backdrop-blur-lg">
               <div
-                className="z-9 mx-auto max-w-7xl bg-transparent px-4 pt-4  sm:px-6"
+                className="z-9 mx-auto mb-12 max-w-7xl bg-transparent px-4 pt-4  sm:px-6"
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"

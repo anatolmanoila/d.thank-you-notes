@@ -94,7 +94,7 @@
 
 /* Landing */
 .landing-bg {
-  background: url('/img/snow-pattern.png') no-repeat;
+  background: url('/img/bg.png') no-repeat;
   z-index: 99;
   height: 100%;
   width: 100%;

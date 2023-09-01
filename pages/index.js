@@ -1,22 +1,6 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import {
-  ArrowUturnLeftIcon,
-  Bars3Icon,
-  ChatBubbleBottomCenterTextIcon,
-  ChatBubbleLeftEllipsisIcon,
-  ChatBubbleLeftRightIcon,
-  DocumentChartBarIcon,
-  HeartIcon,
-  InboxIcon,
-  PencilSquareIcon,
-  QuestionMarkCircleIcon,
-  SparklesIcon,
-  TrashIcon,
-  UsersIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+
 import GridCards from '/components/GridCards'
 import AudioButton from '../components/AudioButton'
 
@@ -73,7 +57,6 @@ export default function Home() {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
               >
                 <img
                   className=" relative mx-auto h-48 rounded-full sm:h-48"
@@ -98,9 +81,7 @@ export default function Home() {
       </main>
 
       <footer className="bg-gray-50" aria-labelledby="footer-heading">
-        <h2 id="footer-heading" className="sr-only">
-          Footer
-        </h2>
+        <h2 id="footer-heading" className="sr-only"></h2>
         <div className="mx-auto max-w-7xl px-4 pt-0 pb-4 sm:px-6 lg:px-8">
           <div className="border-t border-gray-200 pt-4 md:flex md:items-center md:justify-center ">
             <p className="mt-8 text-base text-gray-400 md:order-1 md:mt-0">

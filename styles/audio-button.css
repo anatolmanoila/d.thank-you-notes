@@ -1,0 +1,15 @@
+.btn {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  opacity: 0.85;
+  width: 42px;
+  height: 42px;
+}
+
+.pause-btn {
+  background-image: url('/icons/sound-off.svg');
+}
+
+.play-btn {
+  background-image: url('/icons/sound-on.svg');
+}

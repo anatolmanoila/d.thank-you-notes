@@ -31,7 +31,7 @@ export default function GridCardsOctober() {
               maxWidth: person.maxWidth ? `${person.maxWidth}px` : '340px',
             }}
           >
-            <li className="card-body col-span-1 flex flex-col rounded-lg bg-green-100/20 shadow-xl">
+            <li className="card-body col-span-1 flex flex-col rounded-lg bg-white shadow-xl">
               {/* card front */}
               <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white/30 p-4 shadow-lg">
                 <img
@@ -94,7 +94,7 @@ export default function GridCardsOctober() {
           <div className="card break-inside " key={person.id}>
             <li className="card-body col-span-1 flex flex-col rounded-lg shadow-xl shadow-xl">
               {/* card front */}
-              <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white/30 p-4 shadow-lg">
+              <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white p-4 shadow-lg">
                 <img
                   className="mx-auto h-48 w-48 flex-shrink-0 rounded-full object-cover object-center shadow-xl"
                   src={person.imageUrl}
@@ -105,7 +105,7 @@ export default function GridCardsOctober() {
                 </h3>
               </div>
               {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-rose-100/20 to-white p-8">
+              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-r from-pink-100/30 to-white p-8">
                 <blockquote>
                   <div>
                     <svg

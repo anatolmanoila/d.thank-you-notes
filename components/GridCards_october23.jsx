@@ -92,7 +92,7 @@ export default function GridCardsOctober() {
       >
         {signedByOvidiuNeagoe.map((person) => (
           <div className="card break-inside " key={person.id}>
-            <li className="card-body col-span-1 flex flex-col rounded-lg bg-white shadow-xl shadow-xl">
+            <li className="card-body col-span-1 flex flex-col rounded-lg shadow-xl shadow-xl">
               {/* card front */}
               <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white/30 p-4 shadow-lg">
                 <img
@@ -105,7 +105,7 @@ export default function GridCardsOctober() {
                 </h3>
               </div>
               {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-gray-100 to-white p-8">
+              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-rose-100/20 to-white p-8">
                 <blockquote>
                   <div>
                     <svg

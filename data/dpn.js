@@ -230,10 +230,10 @@ export default {
           "I wanted to take a moment to express my heartfelt gratitude for Oana’s exceptional contributions and unwavering dedication to our team. <br /><br /> Her ability to navigate complex customer conversations with grace and expertise has not only strengthened our client relationships but has also bolstered our team's confidence. She has provided insightful input and strategic thinking that have been invaluable in addressing critical customer concerns and finding innovative solutions. <br /> <br /> Furthermore, her tireless efforts in helping us meet our resourcing requirements have been instrumental in ensuring that our team operates smoothly and efficiently. Your meticulous attention to detail and proactive approach have made a significant difference in our day-to-day operations. While not always met with success, the customer being incredibly difficult as of late, you have always managed to get the right person in the required role while also giving us the room to grow as professionals.  <br /><br /> It's also worth acknowledging her commitment to fostering connections within the wider Deloitte ecosystem. She has placed us in contact with key stakeholders within the wider Deloitte environment ensuring that we have access to valuable insights and resources that would normally be difficult to reach.",
         imageUrl: '/people/oana_popescu.jpeg',
         signedImageUrl: '/people/cristi_babuta.jpeg',
-        maxWidth: 480,
+        maxWidth: 580,
       },
       {
-        id: 13,
+        id: 142,
         name: 'Luiza Radulescu',
         title: '',
         role: '',
@@ -242,6 +242,7 @@ export default {
           "While I don’t personally work with Luiza on a day by day basis, I wanted to extend my sincere appreciation for her exceptional contributions and remarkable leadership in recent times. <br /><br /> Her ability to handle critical customer talks with poise, expertise, and a customer-centric approach has not only strengthened our client relationships but has also set a high standard for our teams to aspire to. <br />Her skills in communication and conflict resolution were instrumental in managing a particularly difficult customer, turning challenging scenarios into opportunities for improvement and growth.<br /><br /> Moreover, her adeptness at coordinating the efforts of multiple high-profile teams within our contract has been nothing short of impressive. Her organizational prowess, attention to detail, and commitment to aligning everyone's efforts have ensured that we deliver outstanding results collectively.",
         imageUrl: '/people/Luiza_Radulescu.jpeg',
         signedImageUrl: '/people/cristi_babuta.jpeg',
+        maxWidth: 480,
       },
     ],
     ovidiu_neagoe: [

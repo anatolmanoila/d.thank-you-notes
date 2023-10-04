@@ -1,7 +1,6 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Popover } from '@headlessui/react'
 
-import GridCards from '/components/GridCards'
+import GridCardsOctober from '/components/GridCards_october23'
 import AudioButton from '../components/AudioButton'
 
 function classNames(...classes) {
@@ -72,7 +71,7 @@ export default function Home() {
                   data-aos-easing="ease-in-out"
                   data-aos-mirror="true"
                 >
-                  <GridCards />
+                  <GridCardsOctober />
                 </div>
               </div>
             </div>

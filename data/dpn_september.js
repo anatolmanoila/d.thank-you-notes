@@ -82,7 +82,7 @@ export default {
       imageUrl: '/people/elena_avanu.jpeg',
     },
   ],
-  september23_signedBy: {
+  signedBy: {
     lucian: [
       {
         id: 12,
@@ -92,7 +92,7 @@ export default {
         signed: 'Signed: Lucian Popovici',
         message:
           'A software engineer at heart, Vlad is finding his first challenges as Delivery Lead on Herbalife and NHS / Alpha Commerce. After impressing on John Lewis & Partners as a technical lead, Vlad started to build the commercetools community around him which is now at the core of the Alpha Commerce product. I personally appreciate Vlad’s versatility and will to grow. I know both Herbalife and NHS are tough projects, both coming with very difficult and totally different challenges. I appreciate the resilience 😊. Thank you and keep it going! <br />',
-        imageUrl: '/people/Vlad_Herescu.jpeg',
+        imageUrl: '/people/new/Vlad_Herescu.jpeg',
         signedImageUrl: '/people/lucian_popovici.jpeg',
       },
       {
@@ -103,7 +103,7 @@ export default {
         signed: 'Signed: Lucian Popovici',
         message:
           'Teo’s first project is not an easy one. Herbalife is facing challenging milestones and tough morale issues, the team being under pressure for a long time now. Teo is joining during a critical time when the team needs to be together, deliver at the well-known standards during project closure. Good luck, Teo! I know it’s not easy, but do reach out if you need support from anyone. ',
-        imageUrl: '/people/Teodor_Tudor.jpeg',
+        imageUrl: '/people/new/Teodor_Tudor.jpeg',
         signedImageUrl: '/people/lucian_popovici.jpeg',
       },
       {
@@ -113,7 +113,7 @@ export default {
         role: '',
         signed: 'Signed: Lucian Popovici',
         message: `Always drawing the shorter stick when it comes to project assignments, Toni has managed to keep alive the spirit on tough projects like DVSA, Reckitt and Herbalife while engaging with the team and the client, balancing team’s morale, and the delivery (quality and timelines). Thank you, Toni! Hope NHS will do you justice and provide you the context you need 😊`,
-        imageUrl: '/people/Toni_Cozianu.jpeg',
+        imageUrl: '/people/new/Toni_Cozianu.jpeg',
         signedImageUrl: '/people/lucian_popovici.jpeg',
       },
     ],
@@ -126,7 +126,7 @@ export default {
         signed: 'Signed: Alexandra Asanache',
         message:
           'Teo, your dedication, expertise, and unwavering commitment to ensuring the success of project deliveries have been truly remarkable. Your ability to steer the team through challenges, maintain a clear vision, and foster a safe and collaborative environment has been inspiring. Thank you for the passion and all the hard work you put in everything you do!',
-        imageUrl: '/people/Teodora_Ionescu.jpeg',
+        imageUrl: '/people/new/Teodora_Ionescu.jpeg',
         signedImageUrl: '/people/alexandra_asanache.jpeg',
       },
       {
@@ -137,7 +137,7 @@ export default {
         signed: 'Signed: Alexandra Popa',
         message:
           "Thank you for your outstanding performance as a Delivery Manager. In my interactions with Gabi, I've been continuously impressed by his commitment, expertise, and drive to ensure that projects are delivered on time, within scope, and to the highest standard. On a personal note, Gabi, your dedication to the team doesn't go unnoticed. You've built a collaborative space where we all feel valued. We're lucky to have you on board.",
-        imageUrl: '/people/Gabi_Antonica.jpeg',
+        imageUrl: '/people/new/Gabi_Antonica.jpeg',
         signedImageUrl: '/people/alexandra_popa.jpeg',
       },
     ],
@@ -150,7 +150,7 @@ export default {
         signed: 'Signed: Bianca Palade',
         message:
           'Your drive, passion and great energy helped us bring the strategy to life for the R&M pillar in the community. Thank you for always being there and inspiring the team around you towards achieving great things together. It’s only been a quarter in our journey, but look how far we’ve come and how many initiatives we’ve launched, initiatives that will bring the DM community members together and share their experiences.',
-        imageUrl: '/people/Sorina_Florea_2.jpeg',
+        imageUrl: '/people/new/Sorina_Florea_2.jpeg',
         signedImageUrl: '/people/bianca_palade.jpeg',
       },
       {
@@ -161,7 +161,7 @@ export default {
         signed: 'Signed: Bianca Palade',
         message:
           'Thanks a lot for being a valuable member of the community and helping build the L&D pillar since the beginning of the community. Despite the challenging times on the project, you managed to build and inspire a team that set the basis for the DM community growth. Thanks to your drive and leadership, we now have clear learning journeys, skills matrix, a mentorship programme and many trainings aimed at developing the delivery management capabilities. Your contribution goes even beyond this, leading by example and being a great team player, always helping other core group members when needed and setting a high bar in the community.',
-        imageUrl: '/people/Luiza_Radulescu.jpeg',
+        imageUrl: '/people/new/Luiza_Radulescu.jpeg',
         signedImageUrl: '/people/bianca_palade.jpeg',
       },
       {
@@ -172,7 +172,7 @@ export default {
         signed: 'Signed: Bianca Palade',
         message:
           'Irina, the DM community couldn’t thank you enough for all the contribution. A true leader, leading by example and inspiring others with your story, you fostered a safe environment for the community members, where they can share their challenges, failures and successes. Due to your passion and drive, we have now achieved an important milestone and set the basis for a full training series aimed at growing the delivery management skills. You are a valuable member in our community and I am glad that I had the chance to work with you.',
-        imageUrl: '/people/Irina_Winckelbauer.jpeg',
+        imageUrl: '/people/new/Irina_Winckelbauer.jpeg',
         signedImageUrl: '/people/bianca_palade.jpeg',
       },
     ],
@@ -186,7 +186,7 @@ export default {
         message: `It's rare to find someone who can lead with passion as seamlessly as you do. You - going the extra mile - has not only elevated our team's performance but has also shaped the respect and admiration of everyone who has had the privilege of working with you.`,
         message2: `I am truly fortunate to have you as our Delivery Lead, and I am excited to see the incredible achievements that will undoubtedly result from your continued commitment. Your consistent efforts, unwavering commitment, and proactive attitude make a huge difference. `,
         message3: `Thank you for being part of our journey!`,
-        imageUrl: '/people/Sorina_Florea_2.jpeg',
+        imageUrl: '/people/new/Sorina_Florea_2.jpeg',
         signedImageUrl: '/people/silvana_helal.jpeg',
       },
 
@@ -200,7 +200,7 @@ export default {
         message2: `Your insightful decision-making, grounded in a clear understanding of the realities we face, has helped us navigate complex situations with confidence and grace. Equally impressive is your pragmatic approach to problem-solving. `,
         message3: `You are setting an exceptional standard, and we are truly fortunate to have someone of your caliber on our team.`,
         message4: `Thank you for being part of our journey!`,
-        imageUrl: '/people/Dana_Panfile.jpeg',
+        imageUrl: '/people/new/Dana_Panfile.jpeg',
         signedImageUrl: '/people/silvana_helal.jpeg',
       },
       {
@@ -213,157 +213,7 @@ export default {
         message2: `Your genuine excitement for the initiatives you undertake creates a positive and dynamic work environment that fosters creativity and collaboration.`,
         message3: ` Your ability to balance big-picture thinking with a focus on practical solutions has been instrumental.`,
         message4: `Thank you for being part of our journey!`,
-        imageUrl: '/people/Vlad_Herescu.jpeg',
-        signedImageUrl: '/people/silvana_helal.jpeg',
-      },
-    ],
-  },
-  october23_signedBy: {
-    cristi_babuta: [
-      {
-        id: 12,
-        name: 'Oana Popescu',
-        title: 'Delivery Lead',
-        role: 'Delivery Lead',
-        signed: 'Signed: Cristi Babuta',
-        message:
-          "I wanted to take a moment to express my heartfelt gratitude for Oana’s exceptional contributions and unwavering dedication to our team. <br /><br /> Her ability to navigate complex customer conversations with grace and expertise has not only strengthened our client relationships but has also bolstered our team's confidence. She has provided insightful input and strategic thinking that have been invaluable in addressing critical customer concerns and finding innovative solutions. <br /> <br /> Furthermore, her tireless efforts in helping us meet our resourcing requirements have been instrumental in ensuring that our team operates smoothly and efficiently. Your meticulous attention to detail and proactive approach have made a significant difference in our day-to-day operations. While not always met with success, the customer being incredibly difficult as of late, you have always managed to get the right person in the required role while also giving us the room to grow as professionals.  <br /><br /> It's also worth acknowledging her commitment to fostering connections within the wider Deloitte ecosystem. She has placed us in contact with key stakeholders within the wider Deloitte environment ensuring that we have access to valuable insights and resources that would normally be difficult to reach.",
-        imageUrl: '/people/Oana_Popescu.jpeg',
-        signedImageUrl: '/people/cristi_babuta.jpeg',
-        maxWidth: 480,
-      },
-      {
-        id: 13,
-        name: 'Luiza Radulescu',
-        title: '',
-        role: '',
-        signed: 'Signed: Cristi Babuta',
-        message:
-          "While I don’t personally work with Luiza on a day by day basis, I wanted to extend my sincere appreciation for her exceptional contributions and remarkable leadership in recent times. <br /><br /> Her ability to handle critical customer talks with poise, expertise, and a customer-centric approach has not only strengthened our client relationships but has also set a high standard for our teams to aspire to. <br />Her skills in communication and conflict resolution were instrumental in managing a particularly difficult customer, turning challenging scenarios into opportunities for improvement and growth.<br /><br /> Moreover, her adeptness at coordinating the efforts of multiple high-profile teams within our contract has been nothing short of impressive. Her organizational prowess, attention to detail, and commitment to aligning everyone's efforts have ensured that we deliver outstanding results collectively.",
-        imageUrl: '/people/Luiza_Radulescu.jpeg',
-        signedImageUrl: '/people/cristi_babuta.jpeg',
-      },
-    ],
-    ovidiu_neagoe: [
-      {
-        id: 12,
-        name: 'Alexandra Asanache',
-        title: 'Delivery Lead',
-        role: 'Delivery Lead',
-        signed: 'Signed: Ovidiu Neagoe',
-        message:
-          "I want to express my profound appreciation to Alexandra Asanache for her invaluable assistance in kickstarting the 'Currance' project last week. <br /><br />Alexandra not only facilitated a seamless introduction, but also meticulously explained the project's context and scope, enabling me to achieve a swift understanding of the project. <br /> <br />Furthermore, her expertly crafted stakeholder mapping provided me with a clear blueprint for effective communication and collaboration. Thank you Alex!",
-        imageUrl: '/people/alexandra_asanache.jpeg',
-        signedImageUrl: '/people/ovidiu_neagoe.jpeg',
-        maxWidth: 480,
-      },
-    ],
-    elena_avanu: [
-      {
-        id: 9,
-        name: 'Teodorescu, George-Alexandru',
-        title: '',
-        role: '',
-        signed: 'Signed: Elena Avanu',
-        message:
-          'Dear George, I want to take a moment and express my gratitude for our incredible journey together from being a junior team member to becoming one of our most respected team leaders. Your dedication, perseverance and commitment to continuous growth is truly inspiring. Your leadership has not only elevated our team but also served as an example of what hard work and determination can achieve. Thank you for setting such a remarkable path for all of us to follow! With sincere gratitude, Elena.',
-        imageUrl: '/people/George_Teodorescu.jpeg',
-        signedImageUrl: '/people/elena_avanu.jpeg',
-      },
-      {
-        id: 10,
-        name: 'Teodorescu, George-Alexandru',
-        title: '',
-        role: '',
-        signed: 'Signed: Elena Avanu',
-        message:
-          'Dear Radu, what a remarkable journey the last 5 years have been! Your career path serves as an inspiring testament to personal growth and incredible resilience. I believe your leadership has not only elevated our team but ignited a spark within us, showcasing the incredible results that come from dedication,kindness, and perseverance. Thank you for paving the way for our collective success! With sincere gratitude, Elena.',
-        imageUrl: '/people/Radu_Satnoianu.jpeg',
-        signedImageUrl: '/people/elena_avanu.jpeg',
-      },
-      {
-        id: 11,
-        name: 'Teodorescu, George-Alexandru',
-        title: '',
-        role: '',
-        signed: 'Signed: Elena Avanu',
-        message:
-          'Dear Andrada, I wanted to take a minute and say thank you for your incredible adaptability to unexpected changes. Your leadership during uncertain times has been invaluable, keeping our team on track and confident even in the face of adversity. We are fortunate to have you in our community as a leader and your handling of crises continues to inspire us all. With sincere gratitude, Elena.',
-        imageUrl: '/people/Andrada_Stancu.jpeg',
-        signedImageUrl: '/people/elena_avanu.jpeg',
-      },
-    ],
-    ioan_posa: [
-      {
-        id: 7,
-        name: 'Bianca Palade',
-        title: '',
-        role: '',
-        signed: 'Signed: Ioan Posa',
-        message:
-          'Bianca, I want to express my heartfelt gratitude for your outstanding leadership within the Delivery Management community. Your unwavering "can-do" attitude serves as a powerful source of inspiration for everyone around you. <br /><br /> Your strategic thinking and your ability to see the broader vision in every initiative we undertake are truly remarkable. Your dedication ensures that we consistently make a positive impact on our community. <br /> <br /> Please continue on this incredible journey, knowing that your efforts, dedication, and active involvement are immensely valued and appreciated. Thank you once again for your remarkable contributions.',
-        imageUrl: '/people/bianca_palade.jpeg',
-        signedImageUrl: '/people/ioan_posa.jpeg',
-        maxWidth: '400px',
-      },
-      {
-        id: 8,
-        name: 'Daniela Paun',
-        title: '',
-        role: '',
-        signed: 'Signed: Ioan Posa',
-        message:
-          'Daniela stands as a pivotal member within our Delivery Management community, exemplifying leadership and exceptional balance between project responsibilities and active engagement within our guild. <br /><br /> Her capacity for optimism and her adeptness at swiftly finding solutions when confronted with challenges are truly remarkable. With every group endeavor, Daniela consistently elevates the standards, demonstrating remarkable teamwork and a genuine commitment to helping others excel. <br /><br /> Furthermore, her extraordinary maturity in handling conflicts has a transformative effect, consistently turning crises into opportunities for growth and progress. <br /> <br /> Big THANK YOU for your commitment, effort and keep up the great work.',
-        imageUrl: '/people/daniela_paun.jpeg',
-        signedImageUrl: '/people/ioan_posa.jpeg',
-        maxWidth: '440px',
-      },
-    ],
-    diana_oprescu: [
-      {
-        id: 16,
-        name: 'Ramona Raducu',
-        title: '',
-        role: '',
-        signed: 'Signed: Diana Oprescu',
-        message: `A big shout out to Ramona Raducu, for being part of the JLP process and supporting Mircea. Your effort is greatly appreciated. `,
-        imageUrl: '/people/ramona_raducu.jpeg',
-        signedImageUrl: '/people/diana_oprescu.jpeg',
-      },
-      {
-        id: 15,
-        name: 'Mircea Stan',
-        title: '',
-        role: '',
-        signed: 'Signed: Diana Oprescu',
-        message: `Mircea Stan has been part of the JLP account since it first started in ERDC. His long time devotement and amazing technical skills have made him one of the most trusted and reliable  collaborators for the account. Once again, his technical expertise, has been showcased during a very important day of the year for the business: Apple Preorder Launch. Despite facing unexpected technical challenges outside of our team's control, his extensive knowledge in both tech and business allowed us not only to navigate through but also triumph over these hurdles, making the launch a huge milestone. JLP considered this event as a big success,  £4.7m sales with an increase of 36% for the orders versus last year. `,
-        imageUrl: '/people/mircea_stan.jpeg',
-        signedImageUrl: '/people/diana_oprescu.jpeg',
-        maxWidth: '440px',
-      },
-      {
-        id: 17,
-        name: ' Ionut Istrate',
-        title: '',
-        role: '',
-        signed: 'Signed: Diana Oprescu',
-        message: `A big shout out to Ramona Raducu, for being part of the JLP process and supporting Mircea. Your effort is greatly appreciated. `,
-        imageUrl: '/people/Ionut_Istrate.jpeg',
-        signedImageUrl: '/people/diana_oprescu.jpeg',
-      },
-    ],
-    silvana: [
-      {
-        id: 19,
-        name: 'Vlad Herescu',
-        title: '',
-        role: '',
-        signed: 'Signed: Silvana Roberta Helal',
-        message: `I wanted to take a moment to say Thank you for your outstanding dedication. Your unique combination of passion and pragmatism has truly made a remarkable impact on our projects.`,
-        message2: `Your genuine excitement for the initiatives you undertake creates a positive and dynamic work environment that fosters creativity and collaboration.`,
-        message3: ` Your ability to balance big-picture thinking with a focus on practical solutions has been instrumental.`,
-        message4: `Thank you for being part of our journey!`,
-        imageUrl: '/people/Vlad_Herescu.jpeg',
+        imageUrl: '/people/new/Vlad_Herescu.jpeg',
         signedImageUrl: '/people/silvana_helal.jpeg',
       },
     ],

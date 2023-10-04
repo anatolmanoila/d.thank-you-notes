@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>D. Thank you notes</title>
+        <title>D. Thank you notes October</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"

@@ -17,7 +17,7 @@ export default function GridCardsOctober() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className=" mb-1 flex w-full flex-wrap items-center justify-center gap-16 rounded-xl bg-gradient-to-b from-white to-green-100 pt-4 pb-32"
+        className="mb-1 flex w-full flex-wrap items-center justify-center gap-16 bg-gradient-to-b from-white to-indigo-100 py-24"
         data-aos="fade-in"
         data-aos-duration="2000"
         data-aos-easing="ease-in-out"
@@ -84,7 +84,7 @@ export default function GridCardsOctober() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className=" mb-1 flex w-full flex-wrap justify-center gap-12 rounded-xl bg-gradient-to-b from-indigo-100 to-white py-24"
+        className="mt-1 mb-1 flex w-full flex-wrap justify-center gap-12  bg-gradient-to-b from-indigo-100 to-white py-24"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
@@ -204,7 +204,7 @@ export default function GridCardsOctober() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="mt-1 flex w-full flex-wrap items-center justify-center gap-16  bg-gradient-to-b from-teal-100/10 to-teal-500 py-32"
+        className="mt-1 flex w-full flex-wrap items-center justify-center gap-16  bg-gradient-to-b from-white to-teal-500 py-32"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"

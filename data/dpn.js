@@ -272,7 +272,7 @@ export default {
       },
       {
         id: 10,
-        name: 'Teodorescu, George-Alexandru',
+        name: 'Satnoianu, Radu-Nicolae',
         title: '',
         role: '',
         signed: 'Signed: Elena Avanu',
@@ -283,7 +283,7 @@ export default {
       },
       {
         id: 11,
-        name: 'Teodorescu, George-Alexandru',
+        name: 'Stancu, Andrada-Elena',
         title: '',
         role: '',
         signed: 'Signed: Elena Avanu',

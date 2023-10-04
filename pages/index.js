@@ -96,6 +96,8 @@ export default function Home() {
         <div className="snowflake">🥂</div>
         <div className="snowflake">🥂</div>
         <div className="snowflake">🥂</div>
+        <div className="snowflake">🥂</div>
+        <div className="snowflake">🥂</div>
 
         {/* <div className="snowflake">🥳</div>
         <div className="snowflake">🎉</div>

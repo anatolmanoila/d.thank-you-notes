@@ -228,7 +228,7 @@ export default {
         signed: 'Signed: Cristi Babuta',
         message:
           "I wanted to take a moment to express my heartfelt gratitude for Oana’s exceptional contributions and unwavering dedication to our team. <br /><br /> Her ability to navigate complex customer conversations with grace and expertise has not only strengthened our client relationships but has also bolstered our team's confidence. She has provided insightful input and strategic thinking that have been invaluable in addressing critical customer concerns and finding innovative solutions. <br /> <br /> Furthermore, her tireless efforts in helping us meet our resourcing requirements have been instrumental in ensuring that our team operates smoothly and efficiently. Your meticulous attention to detail and proactive approach have made a significant difference in our day-to-day operations. While not always met with success, the customer being incredibly difficult as of late, you have always managed to get the right person in the required role while also giving us the room to grow as professionals.  <br /><br /> It's also worth acknowledging her commitment to fostering connections within the wider Deloitte ecosystem. She has placed us in contact with key stakeholders within the wider Deloitte environment ensuring that we have access to valuable insights and resources that would normally be difficult to reach.",
-        imageUrl: '/people/Oana_Popescu.jpeg',
+        imageUrl: '/people/oana_popescu.jpeg',
         signedImageUrl: '/people/cristi_babuta.jpeg',
         maxWidth: 480,
       },

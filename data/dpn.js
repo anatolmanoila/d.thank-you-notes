@@ -348,7 +348,7 @@ export default {
         title: '',
         role: '',
         signed: 'Signed: Diana Oprescu',
-        message: `A big shout out to Ramona Raducu, for being part of the JLP process and supporting Mircea. Your effort is greatly appreciated. `,
+        message: `A big shout out to Ionut Istrate, for being part of the JLP process and supporting Mircea. Your effort is greatly appreciated. `,
         imageUrl: '/people/Ionut_Istrate.jpeg',
         signedImageUrl: '/people/diana_oprescu.jpeg',
       },

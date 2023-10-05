@@ -144,7 +144,7 @@ export default function GridCardsOctober() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="flex w-full flex-wrap items-center justify-center gap-8 bg-gradient-to-b from-white to-teal-100/10 py-24"
+        className="flex w-full flex-wrap items-center justify-center bg-gradient-to-b from-white to-teal-100/10 py-24 sm:gap-16 md:gap-12"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"

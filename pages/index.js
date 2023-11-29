@@ -58,8 +58,8 @@ export default function Home() {
                 data-aos-easing="ease-in-out"
               >
                 <img
-                  className=" relative mx-auto h-48 rounded-full sm:h-48"
-                  src="/img/thank-you-logo.jpg"
+                  className=" relative mx-auto h-32 rounded-full sm:h-32"
+                  src="/img/thank-you-logo.png"
                   alt="2023"
                 />
               </div>

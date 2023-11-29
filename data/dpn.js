@@ -234,6 +234,20 @@ export default {
       },
       {
         id: 142,
+        name: 'Ioan Ciocoiu',
+        title: '',
+        role: '',
+        signed: 'By Silvana Helal',
+        message:
+          'Dear Ioan, your ability to navigate challenges and ensure smooth delivery makes a positive impact on our team and the overall project. <br /> <br /> I am grateful for the energy and expertise you bring to the table. Thank you once again for your support in managing the M&G account!',
+        imageUrl: '/people/ioan_ciocoiu.jpeg',
+        signedImageUrl: '/people/silvana_helal.jpeg',
+        maxWidth: 480,
+      },
+    ],
+    ovidiu_neagoe: [
+      {
+        id: 143,
         name: 'Vio Lutu',
         title: '',
         role: '',
@@ -242,21 +256,7 @@ export default {
           'Vio - Just want to say a warm THANK YOU for the entire contribution in the Salesforce community . Your positive impact has been evident from the beginning, and you are a pillar of the biggest Salesforce team from the local market. Your exceptional ability to manage senior stakeholders from different MFs has been instrumental in establishing a in establishing on trust, transparency and collaboration in our partnership. <br /> <br /> Furthermore, you are very close to our people, and you are always there to offer support and help them overcome the challenges that they are facing. <br /><br /> I’ll close it by saying that your maturity and expertise set a positive example for the other leaders from the center. <br /><br /> <strong>Keep it up!</strong>',
         imageUrl: '/people/vio_lutu.jpeg',
         signedImageUrl: '/people/ioan_posa.jpeg',
-        maxWidth: 480,
-      },
-    ],
-    ovidiu_neagoe: [
-      {
-        id: 12,
-        name: 'Alexandra Asanache',
-        title: 'Delivery Lead',
-        role: 'Delivery Lead',
-        signed: 'By Ovidiu Neagoe',
-        message:
-          "I want to express my profound appreciation to Alexandra Asanache for her invaluable assistance in kickstarting the 'Currance' project last week. <br /><br />Alexandra not only facilitated a seamless introduction, but also meticulously explained the project's context and scope, enabling me to achieve a swift understanding of the project. <br /> <br />Furthermore, her expertly crafted stakeholder mapping provided me with a clear blueprint for effective communication and collaboration. Thank you Alex!",
-        imageUrl: '/people/alexandra_asanache.jpeg',
-        signedImageUrl: '/people/ovidiu_neagoe.jpeg',
-        maxWidth: 480,
+        maxWidth: 580,
       },
     ],
     elena_avanu: [

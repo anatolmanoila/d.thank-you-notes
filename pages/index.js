@@ -59,7 +59,7 @@ export default function Home() {
               >
                 <img
                   className=" relative mx-auto h-32 rounded-full sm:h-32"
-                  src="/img/thank-you-logo.png"
+                  src="/img/thank-you-logo_bak.jpg"
                   alt="2023"
                 />
               </div>

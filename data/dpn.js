@@ -150,7 +150,7 @@ export default {
         signed: 'By Bianca Palade',
         message:
           'Your drive, passion and great energy helped us bring the strategy to life for the R&M pillar in the community. Thank you for always being there and inspiring the team around you towards achieving great things together. It’s only been a quarter in our journey, but look how far we’ve come and how many initiatives we’ve launched, initiatives that will bring the DM community members together and share their experiences.',
-        imageUrl: '/people/sorina_florea.jpeg',
+        imageUrl: '/people/sorina_florea2.jpeg',
         signedImageUrl: '/people/bianca_palade.jpeg',
       },
       {
@@ -186,7 +186,7 @@ export default {
         message: `It's rare to find someone who can lead with passion as seamlessly as you do. You - going the extra mile - has not only elevated our team's performance but has also shaped the respect and admiration of everyone who has had the privilege of working with you.`,
         message2: `I am truly fortunate to have you as our Delivery Lead, and I am excited to see the incredible achievements that will undoubtedly result from your continued commitment. Your consistent efforts, unwavering commitment, and proactive attitude make a huge difference. `,
         message3: `Thank you for being part of our journey!`,
-        imageUrl: '/people/sorina_florea.jpeg',
+        imageUrl: '/people/sorina_florea2.jpeg',
         signedImageUrl: '/people/silvana_helal.jpeg',
       },
 
@@ -284,7 +284,7 @@ export default {
         message:
           'Dear Madalina, I want to thank you for the entire experience working together as part of the Recruitment and Marketing Pillar. Your support was greatly appreciated, your positivity, great ideas and implication were all factors of the making the newsletter possible. It was your hard work that kept this alive, and your dedication that added value to the delivery community. We are fortunate to have such a valuable member within our team!',
         imageUrl: '/people/madalina_chiriac.jpeg',
-        signedImageUrl: '/people/sorina_florea.jpeg',
+        signedImageUrl: '/people/sorina_florea2.jpeg',
         maxWidth: '400px',
       },
       {

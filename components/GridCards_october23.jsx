@@ -17,7 +17,7 @@ export default function GridCardsOctober() {
       <ul
         role="list"
         // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="mb-1 flex w-full flex-wrap items-center justify-center gap-16 bg-gradient-to-b from-white to-indigo-100 py-24"
+        className="mb-1 flex w-full flex-wrap items-center justify-center gap-16 bg-gradient-to-b from-white to-teal-100 py-24"
         data-aos="slide-up"
         data-aos-duration="2000"
         data-aos-easing="ease-in-out"
@@ -40,7 +40,7 @@ export default function GridCardsOctober() {
                   alt={person.name}
                 />
                 <h3 className="mt-6 rounded-full rounded-full bg-green-100 px-2 py-0.5 text-sm font-medium text-green-800">
-                  {person.name}
+                  <span style={{ color: '#ccc' }}>To </span> {person.name}
                 </h3>
               </div>
               {/* card back */}
@@ -64,132 +64,12 @@ export default function GridCardsOctober() {
                     <img
                       className="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300"
                       src={person.signedImageUrl}
-                      alt=""
+                      alt={person.signedImageUrl}
                     />
                     <p className="ml-4 text-right text-base font-medium text-green-900">
                       {person.signed}
                     </p>
 
-                    {/* <p className="text-base font-medium text-cyan-900">
-                      role
-                    </p> */}
-                  </footer>
-                </blockquote>
-              </div>
-            </li>
-          </div>
-        ))}
-      </ul>
-
-      <ul
-        role="list"
-        // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className=" mb-1 flex w-full flex-wrap justify-center gap-12  bg-gradient-to-b from-indigo-100 to-white py-24"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-      >
-        {signedByOvidiuNeagoe.map((person) => (
-          <div className="card break-inside " key={person.id}>
-            <li className="card-body col-span-1 flex flex-col rounded-lg shadow-md">
-              {/* card front */}
-              <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white p-4 shadow-lg">
-                <img
-                  className="mx-auto h-48 w-48 flex-shrink-0 rounded-full object-cover object-center shadow-xl"
-                  src={person.imageUrl}
-                  alt={person.name}
-                />
-                <h3 className="mt-6 rounded-full rounded-full bg-indigo-100 px-2 py-0.5 text-sm font-medium text-indigo-800">
-                  {person.name}
-                </h3>
-              </div>
-              {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-purple-50 to-white p-8">
-                <blockquote>
-                  <div>
-                    <svg
-                      className="h-12 w-12  opacity-25"
-                      fill="currentColor"
-                      viewBox="0 0 32 32"
-                      aria-hidden="true"
-                    >
-                      <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path>
-                    </svg>
-                    <p
-                      className="dir-msg mt-6 text-lg font-medium text-gray-900"
-                      dangerouslySetInnerHTML={{ __html: person.message }}
-                    ></p>
-                  </div>
-                  <footer className="mt-6 flex w-full items-center justify-end">
-                    <img
-                      className="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300"
-                      src={person.signedImageUrl}
-                      alt=""
-                    />
-                    <p className="ml-4 text-right text-base font-medium text-green-900">
-                      {person.signed}
-                    </p>
-                    {/* <p className="text-base font-medium text-cyan-900">
-                      role
-                    </p> */}
-                  </footer>
-                </blockquote>
-              </div>
-            </li>
-          </div>
-        ))}
-      </ul>
-
-      <ul
-        role="list"
-        // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="flex w-full flex-wrap items-center justify-center bg-gradient-to-b from-white to-teal-100/10 py-24 sm:gap-16 md:gap-12"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-      >
-        {signedByElenaAvanu.map((person) => (
-          <div className="card break-inside " key={person.id}>
-            <li className="card-body bg-fuchsia/20 col-span-1 flex flex-col rounded-lg bg-gradient-to-b from-fuchsia-100/30 to-white shadow-md">
-              {/* card front */}
-              <div className="card-front bg-fuchsia/30 flex h-full flex-1 flex-col items-center justify-center p-4 shadow-lg">
-                <img
-                  className="mx-auto h-48 w-48 flex-shrink-0 rounded-full object-cover object-center shadow-xl"
-                  src={person.imageUrl}
-                  alt={person.name}
-                />
-                <h3 className="mt-6 rounded-full rounded-full bg-fuchsia-100 px-2 py-0.5 text-sm font-medium text-fuchsia-800">
-                  {person.name}
-                </h3>
-              </div>
-              {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-fuchsia-100/20 to-white p-8">
-                <blockquote>
-                  <div>
-                    <svg
-                      className="h-12 w-12  opacity-25"
-                      fill="currentColor"
-                      viewBox="0 0 32 32"
-                      aria-hidden="true"
-                    >
-                      <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path>
-                    </svg>
-                    <p
-                      className="dir-msg mt-6 text-lg font-medium text-gray-900"
-                      dangerouslySetInnerHTML={{ __html: person.message }}
-                    ></p>
-                  </div>
-                  <footer className="mt-6 flex w-full items-center justify-end">
-                    <img
-                      className="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300"
-                      src={person.signedImageUrl}
-                      alt=""
-                    />
-                    <p className="ml-4 text-right text-base font-medium text-green-900">
-                      {person.signed}
-                    </p>
                     {/* <p className="text-base font-medium text-cyan-900">
                       role
                     </p> */}
@@ -227,7 +107,7 @@ export default function GridCardsOctober() {
                   alt={person.name}
                 />
                 <h3 className="mt-6 rounded-full rounded-full bg-fuchsia-100 px-2 py-0.5 text-sm font-medium text-fuchsia-800">
-                  {person.name}
+                  <span style={{ color: '#ccc' }}>To </span> {person.name}
                 </h3>
               </div>
               {/* card back */}
@@ -251,88 +131,15 @@ export default function GridCardsOctober() {
                     <img
                       className="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300"
                       src={person.signedImageUrl}
-                      alt=""
+                      alt={person.signedImageUrl}
                     />
-                    <p className="ml-4 text-right text-base font-medium text-green-900">
-                      {person.signed}
-                    </p>
-                    {/* <p className="text-base font-medium text-cyan-900">
-                      role
-                    </p> */}
-                  </footer>
-                </blockquote>
-              </div>
-            </li>
-          </div>
-        ))}
-      </ul>
-
-      <ul
-        role="list"
-        // className="mx-auto grid grid-cols-1 gap-6 bg-sky-500 sm:grid-cols-2 lg:grid-cols-4"
-        className="mt-1 flex w-full flex-wrap items-center justify-center gap-16 bg-gradient-to-b from-teal-500/20 to-white py-16"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-      >
-        {signedByDianaOprescu.map((person) => (
-          <div
-            style={{
-              maxWidth: person.maxWidth ? person.maxWidth : '340px',
-            }}
-            className="card break-inside "
-            key={person.id}
-          >
-            <li className="card-body col-span-1 flex flex-col rounded-lg bg-gradient-to-b from-emerald-100/20 to-white shadow-xl shadow-md">
-              {/* card front */}
-              <div className="card-front flex h-full flex-1 flex-col items-center justify-center bg-white/30 p-4 shadow-lg">
-                <img
-                  className="mx-auto h-48 w-48 flex-shrink-0 rounded-full object-cover object-center shadow-xl"
-                  src={person.imageUrl}
-                  alt={person.name}
-                />
-                <h3 className="mt-6 rounded-full rounded-full bg-teal-100 px-2 py-0.5 text-sm font-medium text-teal-800">
-                  {person.name}
-                </h3>
-              </div>
-              {/* card back */}
-              <div className="card-back flex h-full flex-1 flex-col bg-gradient-to-b from-emerald-100 to-white p-8">
-                <blockquote>
-                  <div>
-                    <svg
-                      className="h-12 w-12  opacity-25"
-                      fill="currentColor"
-                      viewBox="0 0 32 32"
-                      aria-hidden="true"
-                    >
-                      <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path>
-                    </svg>
-                    <p
-                      className="dir-msg mt-6 text-lg font-medium text-gray-900"
-                      dangerouslySetInnerHTML={{ __html: person.message }}
-                    ></p>
-                    <p
-                      className="dir-msg mt-4 text-lg font-medium text-gray-900"
-                      dangerouslySetInnerHTML={{ __html: person.message2 }}
-                    ></p>
-                    <p
-                      className="dir-msg mt-4 text-lg font-medium text-gray-900"
-                      dangerouslySetInnerHTML={{ __html: person.message3 }}
-                    ></p>
-                    {person.message4 && (
-                      <p
-                        className="dir-msg mt-4 text-lg font-medium text-gray-900"
-                        dangerouslySetInnerHTML={{ __html: person.message4 }}
-                      ></p>
+                    {person.signedImageUrl2 && (
+                      <img
+                        className="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300"
+                        src={person.signedImageUrl2}
+                        alt={person.signedImageUrl2}
+                      />
                     )}
-                  </div>
-                  <footer className="mt-6 flex w-full items-center justify-end">
-                    <img
-                      className="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300"
-                      src={person.signedImageUrl}
-                      alt=""
-                    />
                     <p className="ml-4 text-right text-base font-medium text-green-900">
                       {person.signed}
                     </p>

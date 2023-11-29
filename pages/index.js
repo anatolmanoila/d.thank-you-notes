@@ -64,7 +64,7 @@ export default function Home() {
                 />
               </div>
               {/* Cards grid: */}
-              <div className="z-9 max-w-12xl mx-auto mt-2 pb-0 pb-48 sm:px-6 lg:px-0">
+              <div className="z-9 max-w-12xl mx-auto mt-2 pb-0 sm:px-6 lg:px-0">
                 <div
                   data-aos="fade-down"
                   data-aos-duration="1500"
